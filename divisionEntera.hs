@@ -1,0 +1,1 @@
+division(a, b) = if a < b then 0 else 1 + division(a - b, b)
