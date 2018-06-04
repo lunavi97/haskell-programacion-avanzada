@@ -1,0 +1,1 @@
+mcd(a, b) = if b == 0 then a else mcd(b, a `mod` b)
